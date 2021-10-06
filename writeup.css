@@ -1,0 +1,168 @@
+/* 
+CMPS3141-HCI - AS4
+Collaborators:
+Date:
+ 
+css for all of your write ups here 
+*/
+
+img {
+  position: center;
+  float: left;
+  width: 360px;
+  height: 330px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background: linear-gradient(to right, #d477ff, #4efae9);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  margin: 0.5em;
+  padding: 0.5rem;
+}
+.card {
+  box-shadow: 4px 4px 4px 4px #7f8185;
+  z-index: 2;
+  padding: 0.5rem;
+  margin: 0.5em;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  line-height: 30px;
+  background: #394a6c;
+  color: rgb(98, 103, 196);
+  padding: 20px 0;
+}
+nav a {
+  position: relative;
+  float: right;
+  padding: 5px 20px;
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+nav #active {
+  color: #fff;
+  background: #424242;
+  border: 30%;
+}
+
+iframe {
+  position: relative;
+  float: left;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+article {
+  position: relative;
+  float: left;
+  width: 330px;
+  height: 200px;
+  margin: 40px 5px;
+  background-color: #333;
+}
+
+h2 {
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 560px;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f1f1f;
+  border-bottom: 1px solid #eee;
+  margin: 10px 0px 10px 0px;
+  padding-bottom: 10px;
+}
+h2 a {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  margin-top: 10px;
+}
+h3 {
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 560px;
+  color: #8c181b;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 15px 0px 5px 0px;
+}
+.fa-star,
+.fa-star-o,
+.fa-check-circle {
+  color: #ffc536;
+}
+p {
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 560px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgb(66, 66, 66);
+}
+img {
+  position: relative;
+  float: left;
+  width: 360px;
+}
+
+h3 #credits {
+  position: relative;
+  text-align: center;
+  padding-right: 30px;
+  width: auto !important;
+}
+
+footer {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 100px;
+  color: #999;
+  background-color: #f9f9f9;
+  text-align: center;
+}
